@@ -1,8 +1,9 @@
+import stream from 'stream';
+
 let config = {
-  server: {
-      port: 3000
-  },
+  port: 3000,
   src: {
+      index: './src',
       entry: './src/index.jsx',
       html: './src/index.html'
   },
