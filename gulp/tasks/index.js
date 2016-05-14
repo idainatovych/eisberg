@@ -1,4 +1,6 @@
 import defaultTask from './default';
+import webpackTask from './webpack';
+import htmlTask from './html';
 
 export default class Tasks {
     constructor(config = {}) {
@@ -8,5 +10,7 @@ export default class Tasks {
 
     initTasks() {
         defaultTask(this.config);
+        webpackTask(this.config);
+        htmlTask(this.config);
     }
 };
