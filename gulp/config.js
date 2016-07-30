@@ -4,8 +4,9 @@ let config = {
   port: 3000,
   src: {
       index: './src',
-      entry: './src/index.jsx',
-      html: './src/index.html'
+      entry: './src/js/index.jsx',
+      html: './src/index.html',
+      styles: './src/styles'
   },
   dest: './dist'
 };

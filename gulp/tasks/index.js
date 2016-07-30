@@ -3,6 +3,7 @@ import webpackTask from './webpack';
 import htmlTask from './html';
 import livereloadTask from './livereload';
 import watchTask from './watch';
+import stylesTask from './styles';
 
 export default class Tasks {
     constructor(config = {}) {
@@ -15,6 +16,7 @@ export default class Tasks {
         webpackTask(this.config);
         htmlTask(this.config);
         livereloadTask(this.config);
+        stylesTask(this.config);
         watchTask(this.config);
     }
 };
