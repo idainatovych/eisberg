@@ -1,13 +1,13 @@
 import React from 'react';
 
 export default class Button extends React.Component {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    render() {
-        return (
-            <button>Click</button>
-        );
-    }
+  render() {
+    return (
+      <button>Click</button>
+    );
+  }
 }

@@ -5,4 +5,3 @@ import Calculator from './components/calculator/Calculator.jsx';
 import CalcStore from './stores/CalculatorStore';
 
 ReactDOM.render(<Calculator />, document.getElementById('test'));
-console.log(CalcStore.getState());

@@ -1,5 +1,5 @@
 const calculator = (state = {}, action) => {
-    return state;
+  return state;
 };
 
 export default calculator;
