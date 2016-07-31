@@ -1,0 +1,2 @@
+echo "Start linter"
+eslint src/js/** && echo "Start Unit tests" && karma start --single-run

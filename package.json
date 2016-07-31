@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Start linter\" && eslint src/js/**"
+    "test": "./test_script"
   },
   "author": "TheBeatCoder (Ilya Daynatovich)",
   "license": "MIT",
@@ -33,6 +33,11 @@
     "eslint-loader": "^1.5.0",
     "eslint-plugin-import": "^1.12.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint-plugin-react": "^5.2.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1"
   }
 }
