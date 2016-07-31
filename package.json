@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./test_script",
-    "start": "gulp"
+    "start": "node ./node_modules/.bin/gulp"
   },
   "author": "TheBeatCoder (Ilya Daynatovich)",
   "license": "MIT",

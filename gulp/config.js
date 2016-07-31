@@ -1,7 +1,7 @@
 import stream from 'stream';
 
 let config = {
-  port: 3000,
+  port: 80,
   src: {
       index: './src',
       entry: './src/js/index.jsx',
