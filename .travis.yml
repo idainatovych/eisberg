@@ -5,3 +5,9 @@ node_js:
 before_script:
   - npm install -g eslint
   - npm install -g karma
+before_deploy: "npm install -g gulp"
+deploy:
+  provider: heroku
+  api_key:
+    secure: 3db53a4f-0001-418f-9347-8fc8c2f1898d
+  app: eisberg
