@@ -1,5 +1,3 @@
-const calculator = (state = {}, action) => {
-  return state;
-};
+const calculator = (state = {}) => state;
 
 export default calculator;

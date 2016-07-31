@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Start linter\" && eslint src/js/**"
   },
   "author": "TheBeatCoder (Ilya Daynatovich)",
   "license": "MIT",
@@ -27,6 +27,12 @@
     "webpack-stream": "^3.2.0"
   },
   "devDependencies": {
-    "jscs-loader": "^0.3.0"
+    "@atlassian/eslint-config-atlassian-fecq": "^2.0.3",
+    "eslint": "^3.2.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2"
   }
 }

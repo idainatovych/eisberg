@@ -10,7 +10,7 @@ module.exports = {
         test: /\.jsx?$/,
         include: [path.resolve(__dirname, "src/js")],
         exclude: /node_modules/,
-        loader: 'jscs-loader'
+        loader: 'eslint-loader'
       }],
       loaders: [{
         test: /\.jsx?$/,
