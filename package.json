@@ -18,6 +18,8 @@
     "babel-register": "^6.8.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^4.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
     "gulp-webpack": "^1.5.0",
     "lodash": "^4.14.0",
     "react": "^15.0.2",
@@ -25,9 +27,7 @@
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "webpack": "^1.13.0",
-    "webpack-stream": "^3.2.0"
-  },
-  "devDependencies": {
+    "webpack-stream": "^3.2.0",
     "@atlassian/eslint-config-atlassian-fecq": "^2.0.3",
     "eslint": "^3.2.0",
     "eslint-config-airbnb": "^9.0.1",
